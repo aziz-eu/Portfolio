@@ -1,25 +1,84 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Merriweather&family=Montserrat:wght@600;900&family=Nunito&family=Roboto&family=Sacramento&family=Ubuntu&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
-    padding: 3rem;
-    background-color: #658864;
+    margin: 2rem 5rem;
+    background-color: #7286D3;
 }
 
 header{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     
 }
-.navbar-brand{
+.navbar .navbar-brand , .navbar .navbar-brand:hover{
+    font-family: 'Pacifico', cursive;
     font-size: 2.5rem;
+    color: #8EA7E9;
 }
 
-.navbar .nav-item .nav-link{
-    color: #EEEEEE;
+
+
+.navbar-light .navbar-nav .nav-link {
+
+    padding: 0 1.2rem;
+    color: #8EA7E9;
 }
-.active a{
-    color: #B7B78A;
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #FFF2F2;
+}
+
+/* HOme Main  */
+
+main{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+ .main-container h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #E5E0FF;;
+}
+
+.main-container h2{
+    font-size: 3rem;
+    color: #8EA7E9;
+}
+
+.main-container p{
+    font-size: 1.8rem;
+    color: #E5E0FF;
+}
+
+.developer{
+    padding: 3rem;
+}
+
+footer{
+    text-align: center;
+    height: 5vh;
+}
+
+footer a{
+    padding: .5rem .5rem;
+    color:  #E5E0FF;
+}
+
+footer p {
+    font-size: .9rem;
+    color: #8EA7E9;
 }
